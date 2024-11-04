@@ -494,7 +494,7 @@ section > p {
 
 .event-item .event-content p .material-symbols-outlined {
     font-size: 19px;
-    color: rgb(156, 156, 156);
+    /* color: rgb(156, 156, 156); */
 }
 
 .event-item .event-content p .title {
@@ -703,14 +703,14 @@ section > p {
     cursor: pointer;
 }
 
-.gallery .gallery-item img {
+/* .gallery .gallery-item img {
     position: relative;
     width: 100%;
     object-fit: cover;
     display: block;
     filter: grayscale(1);
     border-radius: 8px;
-} 
+}  */
 
 .overlay {
     position: absolute;
@@ -722,6 +722,7 @@ section > p {
     height: 100%;
     width: 100%;
     opacity: 0;
+
     transition: .5s;
     display: flex;
     justify-content: center;
@@ -739,7 +740,7 @@ section > p {
 }
 
 .gallery .gallery-item:hover .overlay {
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .lightbox {
@@ -812,7 +813,7 @@ section > p {
 }
 
 .gallery .gallery-item.show{
-    animation: fadeIn 1s ease;  
+    /* animation: fadeIn 1s ease;   */
 }
 
 @keyframes fadeIn{
@@ -5926,7 +5927,7 @@ section.side-flowers {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(86, 125, 140, .7);
+    /* background-color: rgba(86, 125, 140, .7); */
     z-index: 1;
     text-align: center;
     -khtml-opacity: 0;
@@ -10053,3 +10054,4 @@ textarea.form-control {
         transform: translate(100px,60vh);
     }
 } */
+
