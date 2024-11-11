@@ -229,7 +229,7 @@ nav ul li:hover::after {
 
 .header-infos {
     display: flex;
-    width: 50%;
+    width: 90%;
     justify-content: center;
     gap: 30px;
     align-items: center;
@@ -1168,7 +1168,7 @@ input[type="radio"] {
     }
 
     .header-infos .couple {
-        font-size: 40px;
+        font-size: 38px;
         border: 0;
         padding: 0;
     }
